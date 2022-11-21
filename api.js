@@ -6,7 +6,7 @@ const port = 3000;
 
 app.use(express.json());
 mongoose.connect(
-  "mongodb+srv://facuguar12:Facundito12@cluster0.fykmsyr.mongodb.net/myapp?retryWrites=true&w=majority"
+  "mongodb+srv://user:pass@cluster0.fykmsyr.mongodb.net/myapp?retryWrites=true&w=majority"
 );
 
 app.get("/users", user.list);
